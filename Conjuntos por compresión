@@ -1,0 +1,2 @@
+multiplos_de_3 = {num for num in range(20) if num % 3 == 0}
+print("Múltiplos de 3 (0-19):", multiplos_de_3)
