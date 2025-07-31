@@ -1,0 +1,10 @@
+A = {2, 4, 6, 8, 10}
+B = {4, 6, 8}
+
+print("A:", A)
+print("B:", B)
+print("Unión (A | B):", A | B)
+print("Intersección (A & B):", A & B)
+print("Diferencia (A - B):", A - B)
+print("Diferencia simétrica (A ^ B):", A ^ B)
+print("¿B es subconjunto de A?:", B <= A)
