@@ -1,0 +1,19 @@
+beatles = {"Lennon", "McCartney", "Harrison", "Starr"}
+print("Conjunto original:", beatles)
+
+# Añadir y eliminar
+beatles.add("Best")
+print("Añadido 'Best':", beatles)
+
+beatles.remove("Best")
+print("Eliminado 'Best':", beatles)
+
+# Longitud
+print("Número de elementos:", len(beatles))
+
+for member in beatles:
+    print("Miembro:", member)
+
+# Pertenencia
+print("¿'Lennon' está en beatles?:", "Lennon" in beatles)
+print("¿'Fari' está en beatles?:", "Fari" in beatles)
