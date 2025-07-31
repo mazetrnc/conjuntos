@@ -1,0 +1,7 @@
+# Creación básica
+lottery = {21, 10, 46, 29, 31, 94}
+print("Conjunto 'lottery':", lottery)
+
+# Conjunto vacío
+empty_set = set()
+print("Conjunto vacío:", empty_set, type(empty_set))
