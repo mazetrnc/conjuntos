@@ -1,0 +1,10 @@
+# Ejemplos de conversión
+string_to_set = set("aplatanada")
+list_to_set = set([1, 2, 2, 3, 3, 3])
+tuple_to_set = set(("ADENINA", "TIMINA", "GUANINA"))
+dict_to_set = set({"manzana": "rojo", "kiwi": "verde"})
+
+print("De cadena:", string_to_set)
+print("De lista:", list_to_set)
+print("De tupla:", tuple_to_set)
+print("De diccionario (claves):", dict_to_set)
