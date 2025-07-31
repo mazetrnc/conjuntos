@@ -1,0 +1,4 @@
+marks = {8, 4, 6, 2, 9, 5}
+sorted_marks = sorted(marks)  # Devuelve lista ordenada
+print("Conjunto original (desordenado):", marks)
+print("Lista ordenada:", sorted_marks)
